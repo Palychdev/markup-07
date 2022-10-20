@@ -1,0 +1,140 @@
+.container.footer {
+	height: 252px;
+}
+
+.footer-bg {
+	max-width: 1600px;
+	background-color: $background-hero-color;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Logo, address
+
+.footer .logo {
+	color: $primary-white-color;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.address {
+	display: block;
+	margin-bottom: 9px;
+
+	color: $primary-white-color;
+
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.email,
+.tel {
+	display: block;
+	margin-bottom: 9px;
+}
+
+.email.footer-color,
+.tel.footer-color {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.item-address {
+	margin-right: 85px;
+}
+
+// Social link
+
+.social-link {
+	display: inline-block;
+	margin-top: 72px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $primary-white-color;
+}
+
+.footer .item-link {
+	margin-right: 93px;
+}
+
+.social.footer {
+	width: 206px;
+	justify-content: space-between;
+}
+
+.footer .icon {
+	fill: $primary-white-color;
+}
+
+.footer .social-icon {
+	background: rgba(255, 255, 255, 0.1);
+
+	&:hover,
+	&:focus {
+		background-color: $accent-color;
+	}
+}
+
+// Footer form - "Join us"
+
+.footer .item-form {
+	margin-top: 72px;
+}
+
+.form-footer-field {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer .form-label {
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $primary-white-color;
+}
+
+.footer .form-input {
+	width: 358px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background-color: $background-hero-color;
+	color: $primary-white-color;
+}
+
+.footer .mail-elements {
+	display: flex;
+}
+
+.footer .form-btn {
+	display: inline-flex;
+	width: 200px;
+	height: 50px;
+	margin-left: 12px;
+	border-radius: 4px;
+	background-color: $accent-color;
+	border-color: transparent;
+	color: $primary-white-color;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+	cursor: pointer;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.icon-send {
+	margin-left: 10px;
+}

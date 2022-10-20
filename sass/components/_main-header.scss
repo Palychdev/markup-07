@@ -1,0 +1,19 @@
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	/* outline: 1px solid tomato; */
+}
+
+.main-nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.padding {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}

@@ -1,0 +1,48 @@
+.section-title.hidden {
+	@extend %visually-hidden;
+}
+
+.section {
+	margin-bottom: 94px;
+}
+
+.details .item {
+	width: calc((100% - 90px) / 4);
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+}
+
+.picture {
+	height: 120px;
+	margin-bottom: 30px;
+	background-color: $button-background-color;
+	border-radius: 4px;
+
+	.icon {
+		margin-top: 25px;
+		margin-left: 100px;
+	}
+}
+
+.text-title {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+}
+
+.section .text {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}

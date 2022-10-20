@@ -1,0 +1,47 @@
+.auth-nav {
+	display: flex;
+	margin-left: auto;
+}
+
+.auth-nav .item {
+	margin-left: 10px;
+
+	&-phone {
+		margin-left: 30px;
+	}
+}
+
+.email,
+.tel {
+	color: $primary-text-color;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	&.link {
+		margin-left: 10px;
+	}
+
+	.item-email:hover &,
+	.item-email:focus &,
+	.item-phone:hover &,
+	.item-phone:focus & {
+		color: $accent-color;
+		fill: $accent-color;
+	}
+}
+
+.item-email,
+.item-phone {
+	display: flex;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+		fill: $accent-color;
+	}
+}
